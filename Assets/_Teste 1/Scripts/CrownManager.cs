@@ -3,7 +3,6 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class CrownManager : MonoBehaviour
 {
-    CrownLight crown;
     CrownLight[] crowns;
 
     Vector4[] positions = new Vector4[10];
@@ -26,8 +25,6 @@ public class CrownManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Shader.SetGlobalVector("_CrownPos",crown.position);
-        Shader.SetGlobalFloat("_CrownRadius",crown.radius);
         Shader.SetGlobalColor("_ShadowColor", shadowColor);
         //Shader.SetGlobalColor("_ShadowParticleColor", shadowParticleColor);
 
@@ -43,9 +40,6 @@ public class CrownManager : MonoBehaviour
 
     void FindCrowns()
     {
-        crown = FindAnyObjectByType<CrownLight>();
         crowns = FindObjectsByType<CrownLight>(FindObjectsSortMode.None);
-
-        
     }
 }

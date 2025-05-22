@@ -1648,8 +1648,8 @@
     "m_ObjectId": "576d50a8073f437eb0afa4c7ef62c7e5",
     "m_Title": "Fade on intersection",
     "m_Position": {
-        "x": -1946.0,
-        "y": 419.9999694824219
+        "x": -1946.0001220703125,
+        "y": 420.0
     }
 }
 
@@ -2415,8 +2415,8 @@
     "m_ObjectId": "971d73de21214c80a10096bf703abba3",
     "m_Title": "Atmosphere noise",
     "m_Position": {
-        "x": -1616.0,
-        "y": 1229.0001220703125
+        "x": -1616.0001220703125,
+        "y": 1229.0
     }
 }
 
@@ -2766,8 +2766,8 @@
     "m_ObjectId": "b3a53aac005a442ab7a76541ddd1a966",
     "m_Title": "Fresnel for back face",
     "m_Position": {
-        "x": -1749.000244140625,
-        "y": -142.0
+        "x": -1749.0001220703125,
+        "y": -142.00001525878907
     }
 }
 
