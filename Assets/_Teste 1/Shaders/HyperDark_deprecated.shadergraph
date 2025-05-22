@@ -3444,8 +3444,8 @@
     "m_ObjectId": "0b89fd902ae140f89eb3bfa74faeb661",
     "m_Title": "Shadow in Polar Coordinates",
     "m_Position": {
-        "x": -1970.000244140625,
-        "y": 1299.000244140625
+        "x": -1970.0,
+        "y": 1299.0
     }
 }
 
@@ -4544,7 +4544,7 @@
     "m_ObjectId": "194de07c69e14b38a7cda6accf88e58d",
     "m_Title": "Smoothstep Shadow",
     "m_Position": {
-        "x": -74.99968719482422,
+        "x": -75.0,
         "y": 971.0
     }
 }
@@ -4652,8 +4652,8 @@
     "m_ObjectId": "1a63db0b68a5491b93b24eb843b827de",
     "m_Title": "Triplanar Polar Coordinates from crown position",
     "m_Position": {
-        "x": -3762.00048828125,
-        "y": 1094.000244140625
+        "x": -3762.0,
+        "y": 1094.0
     }
 }
 
@@ -6001,7 +6001,7 @@
     "m_Title": "Albedo texture",
     "m_Position": {
         "x": -397.0,
-        "y": -525.0000610351563
+        "y": -525.0
     }
 }
 
@@ -7929,8 +7929,8 @@
     "m_ObjectId": "52d8ed09985c45078ec752465b0b2518",
     "m_Title": "Normal from map",
     "m_Position": {
-        "x": -312.99993896484377,
-        "y": -904.0000610351563
+        "x": -313.0,
+        "y": -904.0
     }
 }
 
@@ -8920,8 +8920,8 @@
     "m_ObjectId": "5f896cd9202b4d53b376860bb11a947d",
     "m_Title": "Shadow Reach from crown radius",
     "m_Position": {
-        "x": -1854.000244140625,
-        "y": 873.0001220703125
+        "x": -1854.0,
+        "y": 873.0
     }
 }
 
@@ -10086,8 +10086,8 @@
     "m_ObjectId": "74a482cc766d4499bce1d02f0a43af03",
     "m_Title": "Albedo Distortion",
     "m_Position": {
-        "x": -2272.000244140625,
-        "y": -176.00006103515626
+        "x": -2272.0,
+        "y": -176.0
     }
 }
 
@@ -13038,7 +13038,7 @@
     "m_Title": "Shadow Outline",
     "m_Position": {
         "x": -319.0,
-        "y": 1713.000244140625
+        "y": 1713.0
     }
 }
 
@@ -14377,8 +14377,8 @@
     "m_ObjectId": "c3633b22bfde4bd0a998abe73266b3da",
     "m_Title": "Shadow Distortion in Polar Coordinates",
     "m_Position": {
-        "x": -2833.000244140625,
-        "y": 2136.00048828125
+        "x": -2833.0,
+        "y": 2136.0
     }
 }
 
@@ -14649,8 +14649,8 @@
     "m_ObjectId": "c6d2fac2b3024c458b8dd82425b24cfa",
     "m_Title": "Mask from distance",
     "m_Position": {
-        "x": -2000.000244140625,
-        "y": 548.0001220703125
+        "x": -2000.0,
+        "y": 548.0
     }
 }
 

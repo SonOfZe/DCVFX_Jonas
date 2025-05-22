@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 2800000, guid: 62e4d26306a140540bc3263db8db98d1, type: 3}
+        m_Texture: {fileID: 2800000, guid: f793c80ef634b054f87af33654559843, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -117,7 +117,7 @@ Material:
     - _ReceiveShadows: 1
     - _Rotation: 0
     - _ShadowReach: -0.39
-    - _ShadowScale: 1
+    - _ShadowScale: 0.2
     - _ShadowSpeed: 0.08
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0

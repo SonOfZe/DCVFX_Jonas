@@ -4,11 +4,23 @@ using UnityEngine;
 public class CrownManager : MonoBehaviour
 {
     CrownLight crown;
+    CrownLight[] crowns;
+
+    Vector4[] positions = new Vector4[10];
+    float[] radiuses = new float[10];
+
+    [SerializeField] Color shadowColor;
+    //[SerializeField] Color shadowParticleColor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        FindCrown();
+        FindCrowns();
+    }
+
+    private void OnEnable()
+    {
+        FindCrowns();
     }
 
     // Update is called once per frame
@@ -16,10 +28,24 @@ public class CrownManager : MonoBehaviour
     {
         Shader.SetGlobalVector("_CrownPos",crown.position);
         Shader.SetGlobalFloat("_CrownRadius",crown.radius);
+        Shader.SetGlobalColor("_ShadowColor", shadowColor);
+        //Shader.SetGlobalColor("_ShadowParticleColor", shadowParticleColor);
+
+        Shader.SetGlobalVectorArray("_CrownLightPositions", positions);
+        Shader.SetGlobalFloatArray("_CrownLightRadiuses", radiuses);
+
+        for (int i = 0; i < crowns.Length; i++)
+        {
+            positions[i] = crowns[i].position;
+            radiuses[i] = crowns[i].radius;
+        }
     }
 
-    void FindCrown()
+    void FindCrowns()
     {
         crown = FindAnyObjectByType<CrownLight>();
+        crowns = FindObjectsByType<CrownLight>(FindObjectsSortMode.None);
+
+        
     }
 }

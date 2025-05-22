@@ -2564,8 +2564,8 @@
     "m_ObjectId": "0b89fd902ae140f89eb3bfa74faeb661",
     "m_Title": "Shadow in Polar Coordinates",
     "m_Position": {
-        "x": -1970.0001220703125,
-        "y": 1299.0001220703125
+        "x": -1970.0,
+        "y": 1299.0
     }
 }
 
@@ -3278,8 +3278,8 @@
     "m_ObjectId": "194de07c69e14b38a7cda6accf88e58d",
     "m_Title": "Smoothstep Shadow",
     "m_Position": {
-        "x": -75.00000762939453,
-        "y": 971.0000610351563
+        "x": -75.0,
+        "y": 971.0
     }
 }
 
@@ -3361,8 +3361,8 @@
     "m_ObjectId": "1a63db0b68a5491b93b24eb843b827de",
     "m_Title": "Triplanar Polar Coordinates from crown position",
     "m_Position": {
-        "x": -3762.00048828125,
-        "y": 1094.0001220703125
+        "x": -3762.0,
+        "y": 1094.0
     }
 }
 
@@ -6467,7 +6467,7 @@
     "m_ObjectId": "5f896cd9202b4d53b376860bb11a947d",
     "m_Title": "Shadow Reach from crown radius",
     "m_Position": {
-        "x": -1854.000244140625,
+        "x": -1854.0,
         "y": 873.0
     }
 }
@@ -8192,8 +8192,8 @@
     "m_ObjectId": "888477267b6c4e50b128053bae064aef",
     "m_Title": "Secondary Shadow in Polar Coordinates",
     "m_Position": {
-        "x": -468.0000305175781,
-        "y": 217.0000457763672
+        "x": -468.0,
+        "y": 217.0
     }
 }
 
@@ -9348,8 +9348,8 @@
     "m_ObjectId": "ab83a40582cb4e3cb85b21dd741a1f8c",
     "m_Title": "Shadow Outline",
     "m_Position": {
-        "x": -319.0000305175781,
-        "y": 1713.0001220703125
+        "x": -319.0,
+        "y": 1713.0
     }
 }
 
@@ -10498,8 +10498,8 @@
     "m_ObjectId": "c3633b22bfde4bd0a998abe73266b3da",
     "m_Title": "Shadow Distortion in Polar Coordinates",
     "m_Position": {
-        "x": -2833.000244140625,
-        "y": 2136.000244140625
+        "x": -2833.0,
+        "y": 2136.0
     }
 }
 
@@ -10689,8 +10689,8 @@
     "m_ObjectId": "c6d2fac2b3024c458b8dd82425b24cfa",
     "m_Title": "Mask from distance",
     "m_Position": {
-        "x": -2000.0001220703125,
-        "y": 548.0000610351563
+        "x": -2000.0,
+        "y": 548.0
     }
 }
 
