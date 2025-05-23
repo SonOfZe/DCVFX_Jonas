@@ -1,1 +1,1 @@
-float4 _ShadowColor;
+float4 _atmosphereParticleColor;

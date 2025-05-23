@@ -9,7 +9,8 @@ public class CrownManager : MonoBehaviour
     float[] radiuses = new float[10];
 
     [SerializeField] Color shadowColor;
-    //[SerializeField] Color shadowParticleColor;
+    /*[SerializeField] Color atmosphereColor;
+    [SerializeField] Color atmosphereParticleColor;*/
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,7 +27,8 @@ public class CrownManager : MonoBehaviour
     void Update()
     {
         Shader.SetGlobalColor("_ShadowColor", shadowColor);
-        //Shader.SetGlobalColor("_ShadowParticleColor", shadowParticleColor);
+        /*Shader.SetGlobalColor("_atmosphereColor", atmosphereColor);
+        Shader.SetGlobalColor("_atmosphereParticleColor", atmosphereParticleColor);*/
 
         Shader.SetGlobalVectorArray("_CrownLightPositions", positions);
         Shader.SetGlobalFloatArray("_CrownLightRadiuses", radiuses);

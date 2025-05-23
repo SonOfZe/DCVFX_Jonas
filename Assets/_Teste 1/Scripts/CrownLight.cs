@@ -27,9 +27,6 @@ public class CrownLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        
-
         position = transform.position;
         diameter = (radius * 2);
         scaleVector.x = diameter;
